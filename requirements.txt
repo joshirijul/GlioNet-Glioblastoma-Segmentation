@@ -4,3 +4,4 @@ numpy
 nibabel
 matplotlib
 opencv-python-headless
+h5py
