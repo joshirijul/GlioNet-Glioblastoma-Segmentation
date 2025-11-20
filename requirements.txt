@@ -1,0 +1,6 @@
+streamlit
+tensorflow-cpu
+numpy
+nibabel
+matplotlib
+opencv-python-headless
