@@ -133,7 +133,7 @@ if uploaded_file is not None:
                 st.pyplot(fig3)
 
             st.success("Tumor Detected Successfully.")
-            st.balloons()
 
 else:
+
     st.warning("Please upload an MRI scan to begin analysis.")
