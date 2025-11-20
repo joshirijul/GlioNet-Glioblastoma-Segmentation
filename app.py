@@ -7,7 +7,7 @@ import tempfile
 import os
 
 # --- PAGE CONFIG ---
-st.set_page_config(page_title="NeuroVision Pro", page_icon="🧠", layout="wide")
+st.set_page_config(page_title="GlioNet AI", page_icon="🧠", layout="wide")
 
 st.markdown("""
     <style>
@@ -16,7 +16,7 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-st.title("🧠 NeuroVision Pro: Volumetric Analysis")
+st.title("🧠 GlioNet: Volumetric Tumor Analysis")
 st.markdown("### Clinical-Grade Glioblastoma Segmentation")
 st.info("System Status: GOD MODE (Active) | Volume Calc: ENABLED")
 
@@ -27,7 +27,7 @@ with st.sidebar:
     t2_file = st.file_uploader("Upload T2 Scan", type=['nii', 'nii.gz'])
     flair_file = st.file_uploader("Upload FLAIR Scan", type=['nii', 'nii.gz'])
     st.markdown("---")
-    st.caption("NeuroVision v3.1 | Built by Rijul")
+    st.caption("GlioNet 1.0 | Built by RJ")
 
 @st.cache_resource
 def load_model():
@@ -169,5 +169,6 @@ if t1_file and t1ce_file and t2_file and flair_file:
 
 else:
     st.info("Upload all 4 files.")
+
 
 
