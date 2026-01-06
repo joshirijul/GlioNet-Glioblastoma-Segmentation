@@ -6,7 +6,7 @@
 ![Status](https://img.shields.io/badge/Status-Clinical%20Prototype-green)
 
 ### 🔬 Project Overview
-NeuroVision is a deep learning framework designed for the automated segmentation of Glioblastoma Multiforme (GBM) brain tumors from multi-modal MRI scans (BraTS 2020 Dataset). 
+GlioNet is a deep learning framework designed for the automated segmentation of Glioblastoma Multiforme (GBM) brain tumors from multi-modal MRI scans (BraTS 2020 Dataset). 
 
 Unlike standard 2D approaches, this project utilizes a **3D U-Net architecture** optimized with a custom **Dice Loss function**, achieving state-of-the-art performance in distinguishing necrotic core, edema, and enhancing tumor tissue.
 
