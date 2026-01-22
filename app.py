@@ -18,7 +18,7 @@ st.markdown("""
 
 st.title("🧠 GlioNet: Volumetric Tumor Analysis")
 st.markdown("### Clinical-Grade Glioblastoma Segmentation")
-st.info("System Status: GOD MODE (Active) | Volume Calc: ENABLED")
+st.info("System Status: Completely Functional | Volume Calc: ENABLED")
 
 with st.sidebar:
     st.header("Patient Data Upload")
@@ -169,6 +169,7 @@ if t1_file and t1ce_file and t2_file and flair_file:
 
 else:
     st.info("Upload all 4 files.")
+
 
 
 
